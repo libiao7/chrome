@@ -1,0 +1,36 @@
+.controlBar {
+	background: none !important;
+}
+
+.controlBar[hidden] {
+	opacity: 1 !important;
+	padding: 0 !important;
+	/* background: transparent !important; */
+}
+
+.controlBar[hidden] .scrubberStack {
+	margin: 0 !important;
+}
+
+.controlBar[hidden] :is(
+
+	/* .playButton, */
+	.positionDurationBox, .muteButton, .volumeStack, .castingButton, .closedCaptionButton, .fullscreenButton, .scrubber) {
+	display: none !important;
+}
+
+.controlBar[hidden] .progressBar {
+	display: block !important;
+}
+
+.controlBar[hidden] ::-moz-progress-bar {
+	border-radius: 0px !important;
+}
+
+.controlBar[hidden] .progressBackgroundBar {
+	justify-content: end !important;
+}
+
+.controlBar[hidden] .progressStack {
+	height: 8px !important;
+}

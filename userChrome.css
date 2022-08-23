@@ -1,0 +1,25 @@
+.tab-close-button,
+.tab-icon-overlay,
+.bookmark-item>image {
+    display: none !important;
+}
+
+/* :root {
+    --tab-min-height: 1px !important;
+}
+
+.tabbrowser-tab,
+.tabbrowser-tab * {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 1px !important;
+} */
+
+.tab-icon-image {
+    opacity: 1 !important;
+}
+
+.tab-label-container {
+    mask-image: none !important;
+}
+
