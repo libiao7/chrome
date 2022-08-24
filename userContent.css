@@ -1,20 +1,31 @@
 .controlBar {
+	height: unset !important;
+	padding: 0 !important;
 	background: none !important;
 }
 
-.controlBar[hidden] {
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* .videocontrols {
+	display: none !important;
+} */
+
+/* .controlsSpacerStack {
+	pointer-events: none !important;
+	display: none !important;
+} */
+
+/* .controlBar[hidden] {
 	opacity: 1 !important;
 	padding: 0 !important;
-	/* background: transparent !important; */
 }
 
 .controlBar[hidden] .scrubberStack {
 	margin: 0 !important;
 }
 
-.controlBar[hidden] :is(
-
-	/* .playButton, */
+.controlBar[hidden] :is(.playButton,
 	.positionDurationBox, .muteButton, .volumeStack, .castingButton, .closedCaptionButton, .fullscreenButton, .scrubber) {
 	display: none !important;
 }
@@ -33,4 +44,4 @@
 
 .controlBar[hidden] .progressStack {
 	height: 8px !important;
-}
+} */
