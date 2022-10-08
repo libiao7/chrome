@@ -3,6 +3,9 @@
 	padding: 0 !important;
 	background: none !important;
 }
+input#scrubber.scrubber{
+	cursor: n-resize !important;
+}
 
 
 
