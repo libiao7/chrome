@@ -4,7 +4,7 @@
 	background: none !important;
 }
 input#scrubber.scrubber{
-	cursor: n-resize !important;
+	cursor: move !important;
 }
 
 
