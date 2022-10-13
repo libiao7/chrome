@@ -6,6 +6,9 @@
 input#scrubber.scrubber{
 	cursor: move !important;
 }
+#statusOverlay.statusOverlay{
+	background-color: transparent !important;
+}
 
 
 
