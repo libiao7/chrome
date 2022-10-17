@@ -3,51 +3,16 @@
 	padding: 0 !important;
 	background: none !important;
 }
-input#scrubber.scrubber{
+
+input#scrubber.scrubber {
 	cursor: move !important;
 }
-#statusOverlay.statusOverlay{
+
+#statusOverlay.statusOverlay,
+#bufferBar {
 	background-color: transparent !important;
 }
 
-
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* .videocontrols {
-	display: none !important;
-} */
-
-/* .controlsSpacerStack {
-	pointer-events: none !important;
-	display: none !important;
-} */
-
-/* .controlBar[hidden] {
-	opacity: 1 !important;
-	padding: 0 !important;
-}
-
-.controlBar[hidden] .scrubberStack {
-	margin: 0 !important;
-}
-
-.controlBar[hidden] :is(.playButton,
-	.positionDurationBox, .muteButton, .volumeStack, .castingButton, .closedCaptionButton, .fullscreenButton, .scrubber) {
+#progressBar {
 	display: none !important;
 }
-
-.controlBar[hidden] .progressBar {
-	display: block !important;
-}
-
-.controlBar[hidden] ::-moz-progress-bar {
-	border-radius: 0px !important;
-}
-
-.controlBar[hidden] .progressBackgroundBar {
-	justify-content: end !important;
-}
-
-.controlBar[hidden] .progressStack {
-	height: 8px !important;
-} */
