@@ -1,3 +1,4 @@
+#fullscr-toggler,
 .tab-close-button,
 .tab-icon-overlay,
 .bookmark-item>image {
@@ -22,4 +23,3 @@
 .tab-label-container {
     mask-image: none !important;
 }
-
