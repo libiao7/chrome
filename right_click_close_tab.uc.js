@@ -35,7 +35,7 @@
         }
     }, true);
     gBrowser.tabContainer.addEventListener("mouseleave", function (e) {
-        if (lastClickedTab !== gBrowser.selectedTab) {
+        if (lastClickedTab && lastClickedTab !== gBrowser.selectedTab) {
             lastClickedTab.click()
         }
     }, true);
